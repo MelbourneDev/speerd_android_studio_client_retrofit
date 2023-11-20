@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        >
+
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotomonoregular"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:text="username"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="new username"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/robotomonoregular"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotomonoregular"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginTop="8dp"
+            android:inputType="textEmailAddress"
+            android:text="email"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/editTextUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="new email address"
+            android:fontFamily="@font/robotomonoregular"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+        <TextView
+            android:id="@+id/textViewUserPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotomonoregular"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:padding="5dp"
+            android:text="password"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="new password"
+            android:fontFamily="@font/robotomonoregular"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/editTextPasswordValidation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="retype password"
+            android:fontFamily="@font/robotomonoregular"
+            android:padding="5dp"
+            android:layout_marginTop="8dp"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash.SplashActivity"
+   >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_foreground"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo_no_background" />
+
+    <TextView
+        android:id="@+id/splashpageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="SPEERD"
+        android:fontFamily="@font/robotomonobold"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/splashpageTextViewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:text="companion app"
+        android:fontFamily="@font/robotomonoregular"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:visibility="invisible"/>
+</FrameLayout>
